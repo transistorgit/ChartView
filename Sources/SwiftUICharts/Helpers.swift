@@ -28,6 +28,8 @@ public struct Colors {
     public static let GradientLowerBlue:Color = Color(hexString: "#F1F9FF")
     public static let DarkPurple:Color = Color(hexString: "#1B205E")
     public static let BorderBlue:Color = Color(hexString: "#4EBCFF")
+    public static let GradientRed:Color = Color(hexString: "#CC3300")
+    public static let GradientGreen:Color = Color(hexString: "#33CC66")
 }
 
 public struct GradientColor {
@@ -140,7 +142,7 @@ public struct ChartForm {
     #else
     public static let small = CGSize(width:180, height:120)
     public static let medium = CGSize(width:180, height:240)
-    public static let large = CGSize(width:360, height:120)
+    public static let large = CGSize(width:360, height:240)
     public static let extraLarge = CGSize(width:360, height:240)
     public static let detail = CGSize(width:180, height:120)
     #endif
